@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "FZXg43TPgrHH+TfdBqJ9KIhZePXZSIDj6wIBg/qjD14=",
+  "Source": "cakeDelivery.api",
+  "BasePath": "_content/cakeDelivery.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
