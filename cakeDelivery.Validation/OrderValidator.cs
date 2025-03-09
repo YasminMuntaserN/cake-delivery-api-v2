@@ -1,5 +1,6 @@
 using cakeDelivery.Entities;
 using FluentValidation;
+using MongoDB.Bson;
 
 namespace cakeDelivery.Validation;
 
@@ -7,9 +8,11 @@ public class OrderValidator : AbstractValidator<Order>
 {
     public OrderValidator()
     {
-        RuleFor(order => order.CustomerId)
-            .GreaterThan(0).WithMessage("Customer ID must be a positive integer.");
-
+        RuleFor(item => item.CustomerId)
+            .NotEmpty().WithMessage("Customer Id is required.")
+            .Must(id => ObjectId.TryParse(id, out _))
+            .WithMessage("Invalid Customer Id format.");
+        
         RuleFor(order => order.TotalAmount)
             .GreaterThan(0).WithMessage("Total amount must be greater than zero.");
 

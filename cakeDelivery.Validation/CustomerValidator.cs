@@ -41,9 +41,6 @@ public class CustomerValidator : AbstractValidator<Customer>
             RuleFor(customer => customer.Country)
                 .NotEmpty().WithMessage("Country is required.")
                 .MaximumLength(50).WithMessage("Country cannot exceed 50 characters.");
-
-            RuleFor(customer => customer.CreatedAt)
-                .LessThanOrEqualTo(DateTime.UtcNow)
-                .WithMessage("Created date cannot be in the future.");
+            
         }
     }

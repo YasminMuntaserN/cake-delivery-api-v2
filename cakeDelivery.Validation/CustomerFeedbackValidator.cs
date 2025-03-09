@@ -7,8 +7,6 @@ public class CustomerFeedbackValidator : AbstractValidator<CustomerFeedback>
 {
     public CustomerFeedbackValidator()
     {
-        RuleFor(feedback => feedback.CustomerId)
-            .GreaterThan(0).WithMessage("Customer ID must be a positive integer.");
 
         RuleFor(feedback => feedback.Feedback)
             .NotEmpty().WithMessage("Feedback content is required.");

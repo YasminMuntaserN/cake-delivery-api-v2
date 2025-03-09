@@ -1,5 +1,6 @@
 using cakeDelivery.Entities;
 using FluentValidation;
+using MongoDB.Bson;
 
 namespace cakeDelivery.Validation;
 
@@ -7,9 +8,11 @@ public class DeliveryValidator : AbstractValidator<Delivery>
 {
     public DeliveryValidator()
     {
-        RuleFor(delivery => delivery.OrderId)
-            .GreaterThan(0).WithMessage("Order ID must be a positive integer.");
-
+        RuleFor(item => item.OrderId)
+            .NotEmpty().WithMessage("Order ID is required.")
+            .Must(id => ObjectId.TryParse(id, out _))
+            .WithMessage("Invalid Order ID format.");
+        
         RuleFor(delivery => delivery.DeliveryAddress)
             .NotEmpty().WithMessage("Delivery address is required.")
             .MaximumLength(50).WithMessage("Delivery address cannot exceed 50 characters.");

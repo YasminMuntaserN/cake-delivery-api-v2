@@ -20,9 +20,7 @@ public class CakeValidator : AbstractValidator<Cake>
 
         RuleFor(cake => cake.StockQuantity)
             .GreaterThanOrEqualTo(0).WithMessage("Stock quantity cannot be negative.");
-
-        RuleFor(cake => cake.CategoryId)
-            .GreaterThan(0).WithMessage("Category ID must be a positive integer.");
+        
 
         RuleFor(cake => cake.ImageUrl)
             .Must(uri => Uri.TryCreate(uri, UriKind.Absolute, out _))
