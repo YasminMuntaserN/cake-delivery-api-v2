@@ -12,184 +12,358 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="842f452a-0e87-476c-b451-0dee6df97364" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/Authorization/AuthService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/Authorization/JwtOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/Authorization/Permissions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/CategoryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/CustomerFeedbackService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/CustomerService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/DeliveryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/OrderItemService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/OrderService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/PaymentService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/AuthDTOs/AuthRequestDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/AuthDTOs/AuthResponseDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/Common/PaginationDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/Common/SearchCriteriaDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/UniqueValidatorService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/UserValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Authorization/PermissionAuthorizationHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Authorization/PermissionRequirement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Authorization/RequirePermissionAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/AuthController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/Base/ControllerBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/CakeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/CategoryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/CustomerController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/CustomerFeedbackController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/DeliveryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/OrderItemController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/PaymentController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/MongoDBSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/SwaggerConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ Cake Delivery API.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea. Cake Delivery API/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ Cake Delivery API/FileContentIndex/56cb0a60-48b1-4b50-9ea5-306dffa75d24.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/ Cake Delivery API/FileContentIndex/d7ee00c1-f4e9-47d3-a12e-50805f771f4b.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/CakeService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/PasswordService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.Business.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.Business.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Debug/net8.0/cakeDelivery.Validation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.Business.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.Business.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/bin/Release/net8.0/cakeDelivery.Validation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/cakeDelivery.Business.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDeli.888AF262.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/cakeDelivery.Business.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/ref/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Debug/net8.0/refint/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDeli.888AF262.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/cakeDelivery.Business.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/ref/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/Release/net8.0/refint/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/cakeDelivery.Business.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/cakeDelivery.Business.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/cakeDelivery.Business.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Business/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CakeDTOs/CakeCreateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CakeDTOs/CakeDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CakeDTOs/CakeDeleteDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CategoryDTOs/CategoryCreateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CategoryDTOs/CategoryDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CategoryDTOs/CategoryDeleteDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CustomerDTOs/CustomerCreateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CustomerDTOs/CustomerDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/CustomerDTOs/CustomerDeleteDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/DeliveryDTO/DeliveryCreateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/DeliveryDTO/DeliveryDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/DeliveryDTO/DeliveryDeleteDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/FeedbackDTOs/FeedbackCreateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/FeedbackDTOs/FeedbackDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/FeedbackDTOs/FeedbackDeleteDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/FeedbackDTOs/FeedbackWithCustomerName.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/OrderDTOs/OrderCreateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/OrderDTOs/OrderDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/OrderDTOs/OrderDeleteDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/OrderDTOs/OrderUpdateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/OrderItemDTOs/OrderItemCreateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/OrderItemDTOs/OrderItemDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/OrderItemDTOs/OrderItemDeleteDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/PaymentDTOs/PaymentCreateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/PaymentDTOs/PaymentDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/PaymentDTOs/PaymentDeleteDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/SalesDTOs/SalesDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/UserDTOs/UserCreateDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/UserDTOs/UserDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/bin/Debug/net8.0/cakeDelivery.DTO.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/bin/Debug/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/bin/Debug/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/bin/Release/net8.0/cakeDelivery.DTO.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/bin/Release/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/bin/Release/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/cakeDelivery.DTO.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/CakeDeliveryDTO.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/CakeDeliveryDTO.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/CakeDeliveryDTO.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.csproj.BuildWithSkipAnalyzers" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/CakeDeliveryDTO.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/ref/CakeDeliveryDTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/ref/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/refint/CakeDeliveryDTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Debug/net8.0/refint/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/CakeDeliveryDTO.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/CakeDeliveryDTO.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/CakeDeliveryDTO.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/CakeDeliveryDTO.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/CakeDeliveryDTO.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/CakeDeliveryDTO.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/ref/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/Release/net8.0/refint/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/cakeDelivery.DTO.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/cakeDelivery.DTO.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/cakeDelivery.DTO.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DTO/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Release/net8.0/cakeDelivery.DataAccess.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Release/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Release/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Release/net8.0/cakeDelivery.DataAccess.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Release/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Release/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDeli.F87AB0BD.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/ref/cakeDelivery.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Release/net8.0/refint/cakeDelivery.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/CustomerFeedback.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/Delivery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/Order.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Release/net8.0/cakeDelivery.Entities.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Release/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Release/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Release/net8.0/cakeDelivery.Entities.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/ref/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/refint/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Debug/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Debug/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Debug/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Debug/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Debug/net8.0/cakeDelivery.Mappers.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Debug/net8.0/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Debug/net8.0/cakeDelivery.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Release/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Release/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Release/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Release/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Release/net8.0/cakeDelivery.Mappers.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Release/net8.0/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/bin/Release/net8.0/cakeDelivery.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/cakeDelivery.Mappers.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDeli.50E6878B.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/cakeDelivery.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/ref/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Debug/net8.0/refint/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDeli.50E6878B.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/cakeDelivery.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/ref/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/Release/net8.0/refint/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/cakeDelivery.Mappers.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/cakeDelivery.Mappers.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/cakeDelivery.Mappers.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Mappers/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Debug/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Debug/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Debug/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Debug/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Debug/net8.0/cakeDelivery.Validation.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Debug/net8.0/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Debug/net8.0/cakeDelivery.Validation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Release/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Release/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Release/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Release/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Release/net8.0/cakeDelivery.Validation.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Release/net8.0/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/bin/Release/net8.0/cakeDelivery.Validation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/cakeDelivery.Validation.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDeli.F7DCA305.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/cakeDelivery.Validation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/ref/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Debug/net8.0/refint/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDeli.F7DCA305.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/cakeDelivery.Validation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/ref/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/Release/net8.0/refint/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/cakeDelivery.Validation.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/cakeDelivery.Validation.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/cakeDelivery.Validation.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.Validation/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/Controllers/OrderController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/AutoMapper.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/DnsClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/FluentValidation.AspNetCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/FluentValidation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/MongoDB.Bson.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/MongoDB.Driver.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/MongoDB.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/SharpCompress.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Snappier.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ZstdSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.Business.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.Business.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.DTO.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.DTO.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.Mappers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.Mappers.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.Validation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.Validation.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/netcoreapp3.1/cakeDelivery.Api.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/cakeDelivery.api.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea. Cake Delivery API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea. Cake Delivery API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ Cake Delivery API/FileContentIndex/7fd9b4c4-6843-486e-b38d-a5ab720a2873.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/ cake delivery api.metadata.v9.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/ cake delivery api.projects.v9.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/ cake delivery api.strings.v9.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Business/Base/BaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Business/Base/BaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Business/Interfaces/IBaseService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Business/Interfaces/IBaseService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Config/CakeConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Config/CategoryConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Config/DeliveryConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Config/OrderConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Config/OrderItemConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Config/PaymentConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Config/SizeConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Config/UserConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/Data/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Migrations/20250216145513_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Migrations/20250216145513_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/Migrations/AppDbContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.DataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.DataAccess.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cakeDelivery.Business/Authorization/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Business/Authorization/AuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cakeDelivery.Business/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Business/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.DataAccess.runtimeconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/bin/Debug/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/cakeDelivery.DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/cakeDelivery.DataAccess.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.genruntimeconfig.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/ref/cakeDelivery.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/ref/cakeDelivery.DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/refint/cakeDelivery.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/Debug/net8.0/refint/cakeDelivery.DataAccess.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/cakeDelivery.DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/cakeDelivery.DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/cakeDelivery.DataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/cakeDelivery.DataAccess.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/cakeDelivery.DataAccess.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/cakeDelivery.DataAccess.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.DataAccess/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/Cake.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/Cake.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/Category.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/Category.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/OrderItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/OrderItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/Payment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/Payment.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/Size.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/Size.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Debug/net8.0/cakeDelivery.Entities.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Debug/net8.0/cakeDelivery.Entities.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Debug/net8.0/cakeDelivery.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Debug/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Debug/net8.0/cakeDelivery.Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Debug/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/bin/Debug/net8.0/cakeDelivery.Entities.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/cakeDelivery.Entities.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/cakeDelivery.Entities.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.genruntimeconfig.cache" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/cakeDelivery.Entities.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/ref/cakeDelivery.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/ref/cakeDelivery.Entities.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/refint/cakeDelivery.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Debug/net8.0/refint/cakeDelivery.Entities.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/Release/net8.0/cakeDelivery.Entities.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/cakeDelivery.Entities.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/cakeDelivery.Entities.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/cakeDelivery.Entities.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/cakeDelivery.Entities.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/cakeDelivery.Entities.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/cakeDelivery.Entities.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.Entities/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Entities/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Validation/CakeValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Validation/CakeValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Validation/CustomerFeedbackValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Validation/CustomerFeedbackValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Validation/CustomerValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Validation/CustomerValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Validation/DeliveryValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Validation/DeliveryValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Validation/OrderItemValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Validation/OrderItemValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Validation/OrderValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Validation/OrderValidator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.Validation/PaymentValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.Validation/PaymentValidator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Azure.Core.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Azure.Identity.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Humanizer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Build.Locator.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.CodeAnalysis.Workspaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Extensions.Options.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Identity.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.OpenApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.OpenApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Mono.TextTemplating.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.ClientModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.CodeDom.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Composition.AttributedModel.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Composition.Convention.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Composition.Hosting.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Composition.Runtime.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Composition.TypedParts.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Formats.Asn1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Memory.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Security.Permissions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.DataAccess.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.DataAccess.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.Entities.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.Entities.dll" afterDir="false" />
@@ -198,89 +372,9 @@
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.api.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.api.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cakeDelivery.api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/cs/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/de/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/es/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/fr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/it/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ja/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ko/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pl/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/ru/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/cakeDelivery.api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/cakeDelivery.api.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.csproj.CoreCompileInputs.cache" afterDir="false" />
@@ -289,13 +383,9 @@
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/cakeDelivery.api.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/ref/cakeDelivery.api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/ref/cakeDelivery.api.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/refint/cakeDelivery.api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/Debug/net8.0/refint/cakeDelivery.api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/cakeDelivery.api.csproj.EntityFrameworkCore.targets" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/cakeDelivery.api.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/cakeDelivery.api.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/cakeDelivery.api.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/cakeDelivery.api.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/cakeDelivery.api.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/cakeDelivery.api.csproj.nuget.g.targets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/rider.project.model.nuget.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cakeDelivery.api/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/cakeDelivery.api/obj/rider.project.restore.info" afterDir="false" />
     </list>
@@ -310,31 +400,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YasminMuntaserN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/YasminMuntaserN/cake-delivery-api-v2.git&quot;,
+    &quot;accountId&quot;: &quot;48e9df18-b297-4aea-a930-0e2e2b9cc9c2&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5111d10f571f4f52a6ca7377a3b36b4324f600/b4/575c9381/IMongoDatabase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cd09a527672c4f27bd06cb028e98e96245c20/1f/4e362340/SymmetricSecurityKey.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cd09a527672c4f27bd06cb028e98e96245c20/b3/94cb61c2/SigningCredentials.cs" root0="FORCE_HIGHLIGHTING" />
@@ -346,11 +424,14 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/36f346b6c0454bc8a6afa7aed38119fe5bbffcc983298d9bfa4dbd5f49461f/Monitor.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3751f63369d883c5ea470ed57be8df2515b62dde23c49b86e1bbaf8c27b/CallSiteRuntimeResolver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3762d68b262a12e791b5994fdf443d3c8fca5d94a67de27b4c94a92e4ba170/Claim.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3791ade316feeb2be344648da3c7d31719ff492f7733b643bf8c24d7629883/RuntimeType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/387238ef9c8f8c6b1dccf4dcba4eed0e459454919b2e4b9cad11a5071789df/Dictionary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/394cf11a64687141fd58fb926ff8b3d5a299eba3bbadaf2de9b93928d523d4/Type.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/43c07a384250af318144a0dcb061248bfe4d85ec1de7be8ea536923238d746/Lazy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5320a471421873d4b26448e9597abdfc114f4593b598ff963b56d991c88b5f/Number.Formatting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5acc345db3c207bc9d886a36ff14867ef8d65557432172c2a42f19aeac04d1b/Nullable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/67ebf210a4bac0747df5febc8332ccaba90acb21287798fde37a06d8eb942b/Encoding.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7027a62f7682a4362081c2f230162dcd86580d24d6e484af84c3d4fc229653/ServiceCacheKey.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/73bf53a1e6e6ec4db0cfcdd9acf5f1a449a815fec26b9bbe48ff22415f7ed/HashHelpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7fcc41fe48c43f71d1476329de953fce8565fcc5dbf3c8c6fdb81c216b19c4/ArgumentNullException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/81a17724166b3a6444e82a8761ce9a1539f4ed2d64ea519f962ccaff16a19f/MapperConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
@@ -369,8 +450,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b7208b3f72528d22781d25fde9a55271bdf2b5aade4f03b1324579a25493cd8/List.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b86cdfe19de105ff2eab7d5d4c613fd91b9adfe4f95bd82e2d6db593e6d3ca3/TaskContinuation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d882146b4f265f10bcbec2663fce248db9ffec5fa1aeaf76e32a11ba5eafcd6/MethodBaseInvoker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e6941457da7e8de7188fea8b4174474fdaf8a42a755219fde78b49e321b18a8/ControllerFactoryProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74c29b9b88b6bc79d45c8ecf5f99fb6781203f77d1554ecb64e2d022ab6d4a/GC.CoreCLR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e7dbd6fe331ff9a3c4b24dd470ec1f19a71b7c5acf258b81ae7f761cd2b319b/Type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ead6614bb1135d7d61e33ab3a33f17abb3e4f07240e1ae2f5641235738ab7/ServiceProviderEngineScope.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f1246839d29201e3a70ea31cb97b0926bd0bc9ecf0fc17b763e7a8262b9e/Mapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5ba16d4e22f6fb9a47ed38453cda01f764b58012dcb0c8b8f095db5ddf67e1/LockingConcurrentDictionary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fb367341658aaedd7de424d4c9189db33c4387e268dcc4011918569442ab12/AsyncTaskMethodBuilderT.cs" root0="FORCE_HIGHLIGHTING" />
@@ -389,22 +472,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.Cake Delivery API: http.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.168&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.Cake Delivery API: http.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "XThreadsFramesViewSplitterKey": "0.168",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RiderProblemsViewState">
     <option name="proportion" value="0.7910828" />
   </component>
@@ -515,7 +598,10 @@
       <workItem from="1741501340003" duration="3410000" />
       <workItem from="1741504980643" duration="74000" />
       <workItem from="1741505208517" duration="5405000" />
-      <workItem from="1741547207605" duration="439000" />
+      <workItem from="1741547207605" duration="1248000" />
+      <workItem from="1741679089173" duration="1199000" />
+      <workItem from="1741680619471" duration="899000" />
+      <workItem from="1741682141147" duration="2044000" />
     </task>
     <task id="LOCAL-00001" summary="start to the project">
       <option name="closed" value="true" />
@@ -565,7 +651,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739906145880</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor:connect the project with mongodb">
+      <option name="closed" value="true" />
+      <created>1741547823542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1741547823542</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,6 +667,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="start to the project" />
@@ -581,37 +686,12 @@
     <MESSAGE value="feat: add order and orderItems entities and there configuration file" />
     <MESSAGE value="feat: add validator classes by using the fluentValidation" />
     <MESSAGE value="feat: add Base Service class and interface to make  clean and reusable structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: add Base Service class and interface to make  clean and reusable structure." />
+    <MESSAGE value="refactor:connect the project with mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor:connect the project with mongodb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/cakeDelivery.api/Controllers/AuthController.cs</url>
-          <line>32</line>
-          <properties documentPath="G:\ Cake Delivery API\cakeDelivery.api\Controllers\AuthController.cs" containingFunctionPresentation="Method 'Login'">
-            <startOffsets>
-              <option value="1011" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1012" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/cakeDelivery.Business/Authorization/AuthService.cs</url>
-          <line>28</line>
-          <properties documentPath="G:\ Cake Delivery API\cakeDelivery.Business\Authorization\AuthService.cs" containingFunctionPresentation="Method 'AuthenticateAsync'">
-            <startOffsets>
-              <option value="883" />
-            </startOffsets>
-            <endOffsets>
-              <option value="884" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/cakeDelivery.Business/CakeService.cs</url>
           <line>33</line>
@@ -626,19 +706,6 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/cakeDelivery.Business/UserService.cs</url>
-          <line>31</line>
-          <properties documentPath="G:\ Cake Delivery API\cakeDelivery.Business\UserService.cs" containingFunctionPresentation="Method 'AddUserAsync'">
-            <startOffsets>
-              <option value="878" />
-            </startOffsets>
-            <endOffsets>
-              <option value="915" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/cakeDelivery.api/Controllers/CakeController.cs</url>
           <line>145</line>
           <properties documentPath="G:\ Cake Delivery API\cakeDelivery.api\Controllers\CakeController.cs" containingFunctionPresentation="Method 'Create'">
@@ -650,6 +717,45 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/cakeDelivery.Business/UserService.cs</url>
+          <line>37</line>
+          <properties documentPath="G:\ Cake Delivery API\cakeDelivery.Business\UserService.cs" containingFunctionPresentation="Method 'AddUserAsync'">
+            <startOffsets>
+              <option value="1113" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1114" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/cakeDelivery.api/Controllers/AuthController.cs</url>
+          <line>32</line>
+          <properties documentPath="G:\ Cake Delivery API\cakeDelivery.api\Controllers\AuthController.cs" containingFunctionPresentation="Method 'Login'">
+            <startOffsets>
+              <option value="1011" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1012" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/cakeDelivery.Business/Authorization/AuthService.cs</url>
+          <line>35</line>
+          <properties documentPath="G:\ Cake Delivery API\cakeDelivery.Business\Authorization\AuthService.cs" containingFunctionPresentation="Method 'AuthenticateAsync'">
+            <startOffsets>
+              <option value="1030" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1148" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

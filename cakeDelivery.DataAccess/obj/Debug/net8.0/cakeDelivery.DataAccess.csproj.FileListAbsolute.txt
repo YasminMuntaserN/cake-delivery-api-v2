@@ -13,3 +13,4 @@ G:\ Cake Delivery API\cakeDelivery.DataAccess\obj\Debug\net8.0\cakeDelivery.Data
 G:\ Cake Delivery API\cakeDelivery.DataAccess\obj\Debug\net8.0\refint\cakeDelivery.DataAccess.dll
 G:\ Cake Delivery API\cakeDelivery.DataAccess\obj\Debug\net8.0\cakeDelivery.DataAccess.pdb
 G:\ Cake Delivery API\cakeDelivery.DataAccess\obj\Debug\net8.0\ref\cakeDelivery.DataAccess.dll
+G:\ Cake Delivery API\cakeDelivery.DataAccess\obj\Debug\net8.0\cakeDelivery.DataAccess.sourcelink.json

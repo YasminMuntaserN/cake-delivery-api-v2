@@ -10,3 +10,4 @@ G:\ Cake Delivery API\cakeDelivery.Entities\obj\Debug\net8.0\cakeDelivery.Entiti
 G:\ Cake Delivery API\cakeDelivery.Entities\obj\Debug\net8.0\refint\cakeDelivery.Entities.dll
 G:\ Cake Delivery API\cakeDelivery.Entities\obj\Debug\net8.0\cakeDelivery.Entities.pdb
 G:\ Cake Delivery API\cakeDelivery.Entities\obj\Debug\net8.0\ref\cakeDelivery.Entities.dll
+G:\ Cake Delivery API\cakeDelivery.Entities\obj\Debug\net8.0\cakeDelivery.Entities.sourcelink.json

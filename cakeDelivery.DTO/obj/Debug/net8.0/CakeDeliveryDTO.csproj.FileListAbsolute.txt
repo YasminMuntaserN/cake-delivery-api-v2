@@ -1,0 +1,13 @@
+G:\Cake Delivery\Backend\CakeDeliveryDTO\bin\Debug\net8.0\CakeDeliveryDTO.deps.json
+G:\Cake Delivery\Backend\CakeDeliveryDTO\bin\Debug\net8.0\CakeDeliveryDTO.dll
+G:\Cake Delivery\Backend\CakeDeliveryDTO\bin\Debug\net8.0\CakeDeliveryDTO.pdb
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\CakeDeliveryDTO.GeneratedMSBuildEditorConfig.editorconfig
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\CakeDeliveryDTO.AssemblyInfoInputs.cache
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\CakeDeliveryDTO.AssemblyInfo.cs
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\CakeDeliveryDTO.csproj.CoreCompileInputs.cache
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\CakeDeliveryDTO.sourcelink.json
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\CakeDeliveryDTO.dll
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\refint\CakeDeliveryDTO.dll
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\CakeDeliveryDTO.pdb
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\ref\CakeDeliveryDTO.dll
+G:\Cake Delivery\Backend\CakeDeliveryDTO\obj\Debug\net8.0\CakeDeliveryDTO.csproj.AssemblyReference.cache

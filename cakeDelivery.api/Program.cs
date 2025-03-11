@@ -62,6 +62,7 @@ builder.Services.AddScoped<PaymentService>();
 builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<UniqueValidatorService>();
+builder.Services.AddScoped<PasswordService>();
 builder.Services.AddScoped<IAuthorizationHandler, PermissionAuthorizationHandler>();
 
 

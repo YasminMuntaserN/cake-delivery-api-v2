@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cakeDelivery.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e70e02ee34fba6ce7ff23b5762748571f9a95ca9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6c6b73274a6789497f8bcbdc0a4310789c6127e")]
 [assembly: System.Reflection.AssemblyProductAttribute("cakeDelivery.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cakeDelivery.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

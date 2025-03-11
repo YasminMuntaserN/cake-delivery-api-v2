@@ -88,3 +88,5 @@ G:\ Cake Delivery API\cakeDelivery.api\obj\Debug\net8.0\cakeDelivery.api.pdb
 G:\ Cake Delivery API\cakeDelivery.api\obj\Debug\net8.0\cakeDelivery.api.genruntimeconfig.cache
 G:\ Cake Delivery API\cakeDelivery.api\obj\Debug\net8.0\ref\cakeDelivery.api.dll
 G:\ Cake Delivery API\cakeDelivery.api\obj\Debug\net8.0\cakeDelivery.api.xml
+G:\ Cake Delivery API\cakeDelivery.api\obj\Debug\net8.0\cakeDelivery.api.sourcelink.json
+G:\ Cake Delivery API\cakeDelivery.api\bin\Debug\net8.0\BCrypt.Net.dll

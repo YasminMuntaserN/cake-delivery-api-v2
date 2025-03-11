@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tsgoC+lWnWc=",
+  "success": true,
+  "projectFilePath": "G:\\ Cake Delivery API\\cakeDelivery.DTO\\cakeDelivery.DTO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TOP\\.nuget\\packages\\microsoft.openapi\\1.6.22\\microsoft.openapi.1.6.22.nupkg.sha512",
+    "C:\\Users\\TOP\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\7.3.1\\swashbuckle.aspnetcore.annotations.7.3.1.nupkg.sha512",
+    "C:\\Users\\TOP\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\7.3.1\\swashbuckle.aspnetcore.swagger.7.3.1.nupkg.sha512",
+    "C:\\Users\\TOP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\7.3.1\\swashbuckle.aspnetcore.swaggergen.7.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}
