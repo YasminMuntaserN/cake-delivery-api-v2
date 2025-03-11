@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cakeDelivery.Mappers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6c6b73274a6789497f8bcbdc0a4310789c6127e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d371a376e748e6ca00252e0c2677e4b3267e1df6")]
 [assembly: System.Reflection.AssemblyProductAttribute("cakeDelivery.Mappers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cakeDelivery.Mappers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
