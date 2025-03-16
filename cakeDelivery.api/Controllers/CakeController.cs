@@ -111,7 +111,7 @@ public class CakeController : BaseController
     [RequirePermission(Permissions.View)]
     [SwaggerOperation(
         Summary = "Check cake existence",
-        Description = "Check if a cake exists based on specified criteria like: CakeName, CakeId"
+        Description = "Check if a cake exists based on specified criteria like: cakeName, CakeId"
     )]
     [SwaggerResponse(StatusCodes.Status200OK, "Successfully checked existence", typeof(bool))]
     [SwaggerResponse(StatusCodes.Status400BadRequest, "Invalid search criteria")]

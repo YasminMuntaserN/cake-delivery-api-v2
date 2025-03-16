@@ -82,7 +82,7 @@ public class DeliveryService : BaseService<Delivery, DeliveryDTO>
 
     public async Task<IEnumerable<DeliveryDTO>> SearchDeliveryAsync(SearchCriteriaDto criteria)
     {
-        Expression<Func<Delivery, bool>> predicate = criteria.Field.ToLower() switch
+        Expression<Func<Delivery, bool>> predicate = criteria.Field switch
         {
             "orderId" => d => d.OrderId == criteria.Value,
             "deliveryCity" => d => d.DeliveryCity.Contains(criteria.Value),

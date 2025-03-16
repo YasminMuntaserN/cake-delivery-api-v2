@@ -78,7 +78,7 @@ public class CategoryService : BaseService<Category, CategoryDTO>
 
     public async Task<IEnumerable<CategoryDTO>> SearchCategoryAsync(SearchCriteriaDto criteria)
     {
-        Expression<Func<Category, bool>> predicate = criteria.Field.ToLower() switch
+        Expression<Func<Category, bool>> predicate = criteria.Field switch
         {
             "categoryName" => c => c.CategoryName.Contains(criteria.Value),
             _ => c => c.CategoryId == criteria.Value,

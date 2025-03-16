@@ -44,13 +44,15 @@ public class CakeService : BaseService<Cake, CakeDTO>
 
     public async Task<(IEnumerable<CakeDTO> Data, long TotalCount, int TotalPages)> GetAllAsync(PaginationDto paginationDto)
     {
-        Expression<Func<Cake, object>> orderBy = paginationDto.OrderBy?.ToLower() switch
+        Expression<Func<Cake, object>> orderBy = paginationDto.OrderBy switch
         {
-            "cakename" => cake => cake.CakeName,
-            "createdat" => cake => cake.CreatedAt,
-            "stockquantity" => cake => cake.StockQuantity,
-            _ => cake => cake.CakeId
+            "CakeName" => cake => cake.CakeName,
+            "createdAt" => cake => cake.CreatedAt,
+            "StockQuantity" => cake => cake.StockQuantity,
+            "Price" => cake => cake.Price,
+            _ => cake => cake.CakeId 
         };
+
 
         return await GetAllAsync(
             paginationDto.PageNumber,
@@ -66,7 +68,7 @@ public class CakeService : BaseService<Cake, CakeDTO>
     {
         var filter = criteria.Field.ToLower() switch
         {
-            "cakename" => Builders<Cake>.Filter.Eq(c => c.CakeName, criteria.Value),
+            "cakeName" => Builders<Cake>.Filter.Eq(c => c.CakeName, criteria.Value),
             "id" => Builders<Cake>.Filter.Eq("_id", ObjectId.Parse(criteria.Value)),
             _ => null
         };
@@ -84,9 +86,9 @@ public class CakeService : BaseService<Cake, CakeDTO>
 
     public async Task<bool> ExistsCakeByAsync(SearchCriteriaDto criteria)
     {
-        var filter = criteria.Field.ToLower() switch
+        var filter = criteria.Field switch
         {
-            "cakename" => Builders<Cake>.Filter.Eq(c => c.CakeName, criteria.Value),
+            "CakeName" => Builders<Cake>.Filter.Eq(c => c.CakeName, criteria.Value),
             _ => Builders<Cake>.Filter.Eq("_id", ObjectId.Parse(criteria.Value)),
         };
 
@@ -100,11 +102,9 @@ public class CakeService : BaseService<Cake, CakeDTO>
 
     public async Task<IEnumerable<CakeDTO>> SearchCakeAsync(SearchCriteriaDto criteria)
     {
-        var filter = criteria.Field.ToLower() switch
+        var filter = criteria.Field switch
         {
-            "cakename" => Builders<Cake>.Filter.Regex(
-                c => c.CakeName,
-                new MongoDB.Bson.BsonRegularExpression(criteria.Value, "i")),
+            "CakeName" => Builders<Cake>.Filter.Eq(c => c.CakeName,criteria.Value),
             _ =>  Builders<Cake>.Filter.Eq("_id", ObjectId.Parse(criteria.Value)),
         };
 

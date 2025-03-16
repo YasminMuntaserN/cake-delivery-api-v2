@@ -5,7 +5,7 @@ using MongoDB.EntityFrameworkCore;
 
 namespace cakeDelivery.Entities;
 
-[Collection("Categories")]
+
 public class Category 
 {
     [BsonId]

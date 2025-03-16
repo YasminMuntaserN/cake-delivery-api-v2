@@ -5,7 +5,6 @@ using MongoDB.EntityFrameworkCore;
 
 namespace cakeDelivery.Entities;
 
-[Collection("Cakes")]
 public class Cake 
 {
     [BsonId]
